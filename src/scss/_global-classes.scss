@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  @include Tablet {
+    padding: 0 25px;
+  }
+}
+.title {
+  color: $white;
+}
+.paragraph {
+  color: $white;
+}
